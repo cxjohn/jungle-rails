@@ -7,8 +7,3 @@ class Admin::DashboardController < ApplicationController
     @categories = Category.count
   end
 end
-# def show 
-#   @unique_inventory = Product.count() 
-#   @category_count = Category.count
-# end
-# end
